@@ -1,6 +1,6 @@
 steps:
   - command: "tesh.sh"
-    agent:
+    agents:
       hostname: "$BUILDKITE_AGENT_META_DATA_HOSTNAME"
     plugins:
       - thedyrt/skip-checkout#v0.1.1:
